@@ -1,6 +1,6 @@
 package in.algo.ds.tree;
 
-import edu.princeton.cs.algs4.RedBlackBST.Node;
+
 
 /**
  * Left Leaning Red Black Tree
@@ -41,7 +41,8 @@ public class RBTree<Key extends Comparable<Key>,Value> {
 		return get(key,root);
 	}
 	
-	private Value get(Key key, RBTree<Key, Value>.Node root2) {
+	private Value get(Key key, Node root2) {
+		return null;
 		
 		
 	}
