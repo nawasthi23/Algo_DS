@@ -34,7 +34,7 @@ public class MergeSort implements Sort {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		
 	}
 
 }
