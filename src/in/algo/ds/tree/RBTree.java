@@ -41,7 +41,7 @@ public class RBTree<Key extends Comparable<Key>,Value> {
 		return get(key,root);
 	}
 	
-	private Value get(Key key, Node root2) {
+	private Value get(Key key, Node node) {
 		return null;
 		
 		
@@ -135,7 +135,10 @@ public class RBTree<Key extends Comparable<Key>,Value> {
 	private int size(Node x) {
         if (x == null) return 0;
         return x.size;
-    } 
+    }
+	
+	
+	
 
 	/**
 	 * @param args
